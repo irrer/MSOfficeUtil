@@ -23,10 +23,10 @@ target/
 # Eclipse stuff
 # .classpath
 # .springBeans
-.project
-.settings/
-.cache
-.cache-main
+# .project
+# .settings/
+# .cache
+# .cache-main
 
 # xterm stuff
 hs_err_pid*.log
