@@ -65,6 +65,8 @@ object ExcelUtil {
   /**
     * Read an Excel spreadsheet.  Use the file name extension as a hint, but try to read it in either the
     * older (xls pre-2007) format or the newer format.  If all fails, then return an error message as Left.
+    *
+    * @param file File to read.
     */
   def read(file: File): Either[String, Workbook] = {
 
